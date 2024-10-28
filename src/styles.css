@@ -1,0 +1,41 @@
+/* styles.css */
+
+/* Light Theme Styles */
+body.light {
+    background-color: #ffffff; /* Background color for light theme */
+    color: #000000; /* Text color for light theme */
+    transition: background-color 0.3s, color 0.3s; /* Smooth transition */
+  }
+  
+  /* Dark Theme Styles */
+  body.dark {
+    background-color: #333333; /* Background color for dark theme */
+    color: #ffffff; /* Text color for dark theme */
+    transition: background-color 0.3s, color 0.3s; /* Smooth transition */
+  }
+  
+  /* Additional styles for inputs and buttons */
+  input, button {
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid;
+  }
+  
+  input.light,
+  button.light {
+    border-color: #cccccc;
+    background-color: #f9f9f9;
+    color: #000;
+  }
+  
+  input.dark,
+  button.dark {
+    border-color: #555555;
+    background-color: #444444;
+    color: #ffffff;
+  }
+  
+  button {
+    cursor: pointer;
+  }
+  
